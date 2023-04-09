@@ -9,9 +9,9 @@ const NavBar = () => {
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                   <li><Link to='/home'>Home</Link></li>
-                    <li><Link>Statistics</Link></li>
+                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 gap-2">
+                   <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/statistics'>Statistics</Link></li>
                     <li tabIndex={0}>
                         <Link className="justify-between">
                         Applied Jobs
@@ -24,20 +24,19 @@ const NavBar = () => {
             <button className="btn btn-ghost normal-case text-xl">JOB HUNTER</button>
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-            <li><Link to='/home'>Home</Link></li>
-                <li><Link>Statistics</Link></li>
+            <ul className="menu menu-horizontal px-1 gap-2">
+            <li><Link to='/'>Home</Link></li>
+                <li><Link to='/statistics'>Statistics</Link></li>
                 <li tabIndex={0}>
                     <Link>
                     Applied Jobs
                     </Link>
-                    
                 </li>
                 
             </ul>
         </div>
         <div className="navbar-end">
-            <Link className="btn">Get started</Link>
+            <Link className="btn bg-gradient-to-r from-cyan-500 to-blue-500 ... border-none">Star Applying</Link>
         </div>
     </div>
     );

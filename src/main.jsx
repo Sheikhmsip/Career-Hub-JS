@@ -8,15 +8,22 @@ import {
 } from "react-router-dom";
 import Main from './components/Layout/Main';
 import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
     children:[
+     
       {
-        path: 'header',
-        element: <Header></Header>
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>
       }
     ]
   }

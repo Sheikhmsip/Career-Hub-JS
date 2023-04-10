@@ -13,7 +13,7 @@ const NavBar = () => {
                    <li><Link to='/'>Home</Link></li>
                     <li><Link to='/statistics'>Statistics</Link></li>
                     <li tabIndex={0}>
-                        <Link className="justify-between">
+                        <Link to='/jobapply' className="justify-between">
                         Applied Jobs
                         </Link>
                         
@@ -28,7 +28,7 @@ const NavBar = () => {
             <li><Link to='/'>Home</Link></li>
                 <li><Link to='/statistics'>Statistics</Link></li>
                 <li tabIndex={0}>
-                    <Link>
+                    <Link to='/jobapply'>
                     Applied Jobs
                     </Link>
                 </li>

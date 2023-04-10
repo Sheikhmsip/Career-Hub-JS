@@ -10,6 +10,7 @@ import Main from './components/Layout/Main';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
+import JobApply from './components/JobApply/JobApply';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: 'jobapply',
+        element: <JobApply></JobApply>
       }
     ]
   }

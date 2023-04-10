@@ -1,7 +1,7 @@
 [
     {
-      "id": "64334e8454ed976f908ea77b",
-      "picture": "../public/All Images/google-1-1 1.png",
+      "id": "1",
+      "picture": "./All Images/google-1-1 1.png",
       "name": "Technical Database Engineer",
       "company": "Google LLC",
       "category": ["Remote", "Full Time"],
@@ -11,8 +11,8 @@
       "salary": "100k-150k"
     },
     {
-      "id": "64334e847f32602de42599dc",
-      "picture": "../public/All Images/netflix-4 1.png",
+      "id": "2",
+      "picture": "./All Images/netflix-4 1.png",
       "name": "Senior Product Design",
       "company": "Netlifix",
       "category": ["Onsite", "Full Time"],
@@ -22,7 +22,7 @@
       "salary": "100k-150k"
     },
     {
-      "id": "64334e841c0643709cddb9df",
+      "id": "3",
       "picture": "./All Images/tesla-9 1.png",
       "name": "SoftWare Engineer",
       "company": "Tesla",
@@ -33,7 +33,7 @@
       "salary": "100k-150k"
     },
     {
-      "id": "64334e847652be1e4980fe04",
+      "id": "4",
       "picture": "https://www.vectorlogo.zone/logos/apple/apple-ar21.png",
       "name": "Developer",
       "company": "Apple",
@@ -45,7 +45,7 @@
       
     },
     {
-      "id": "64334e847603356cb2b63b97",
+      "id": "5",
       "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png",
       "name": "Font-End Developer",
       "company": "Nasa",
@@ -56,7 +56,7 @@
       "salary": "100k-150k"
     },
     {
-      "id": "64334e847bfa02b2c0eb0945",
+      "id": "6",
       "picture": "https://logowik.com/content/uploads/images/openai-chatgpt-4038641.logowik.com.webp",
       "name": "Marketing Manager",
       "company": "OpenAI",

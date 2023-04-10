@@ -5,7 +5,10 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
   const jobs = useLoaderData();
-  // const showAll = 
+  const [showAll, setShowAll] = useState(false);
+  const handleShowAll = () => {
+    setShowAll(true);
+  };
   return (
     <>
       <div className=' flex-row justify-between gap-5 items-center py-5 px-3 md:flex'>
@@ -25,12 +28,23 @@ const Home = () => {
       </div>
       <JobCategory></JobCategory>
       <h1 className='text-center text-5xl font-semibold'>Featured Jobs</h1>
-      <p className='text-center text-base py-3 mt-2'>Explore thousands of job opportunities with all the information you need. I  ts your future</p>
+      <p className='text-center text-base py-3 mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
       <div className='grid md:grid-cols-2 mx-auto card gap-5 w-[95%]'>
-        {
-          jobs.map(job => <FeaturedJobs key={job.id} job={job}></FeaturedJobs>)
-        }
+      {jobs?.slice(0, showAll ? 6 : 4).map((job) => (
+          <FeaturedJobs
+            job={job}
+            key={job.id}
+            
+          />
+        ))}
       </div>
+     <div className='text-center'>
+     {!showAll && (
+        <span onClick={handleShowAll}>
+          <button className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mt-2'>See More Jobs</button>
+        </span>
+      )}
+     </div>
     </>
   );
 };

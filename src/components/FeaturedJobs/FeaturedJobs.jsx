@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 
 const FeaturedJobs = ({ job }) => {
-    const { name, address, category, salary, picture, company,icons } = job
+    const {id, name, address, category, salary, picture, company,icons } = job
     // console.log(jobType.map(type => type))
     return (
         <div className='border p-4 relative h-[392px]'>
@@ -17,7 +18,7 @@ const FeaturedJobs = ({ job }) => {
             </div>
             <button className='btn btn-ghost border-2 border-red-200 mr-2 mt-5'>{category[0]}</button>
             <button className='btn btn-ghost border-2 border-red-200'>{category[1]}</button><br />
-            <button className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mt-5'>View Details</button>
+            <Link to={`jobdetails/${id}`}> <button className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mt-5' >View Details</button></Link>
             </div>
         </div>
     );

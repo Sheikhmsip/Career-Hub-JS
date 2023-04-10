@@ -1,0 +1,71 @@
+[
+    {
+      "id": "64334e8454ed976f908ea77b",
+      "picture": "../public/All Images/google-1-1 1.png",
+      "name": "Technical Database Engineer",
+      "company": "Google LLC",
+      "category": ["Remote", "Full Time"],
+      "email": "larsonhester@opticall.com",
+      "phone": "+1 (940) 507-2236",
+      "address": "Dhaka, Bangladesh",
+      "salary": "100k-150k"
+    },
+    {
+      "id": "64334e847f32602de42599dc",
+      "picture": "../public/All Images/netflix-4 1.png",
+      "name": "Senior Product Design",
+      "company": "Netlifix",
+      "category": ["Onsite", "Full Time"],
+      "email": "ellavalencia@velity.com",
+      "phone": "+1 (928) 572-3117",
+      "address": "Sylhet, Bangladesh",
+      "salary": "100k-150k"
+    },
+    {
+      "id": "64334e841c0643709cddb9df",
+      "picture": "./All Images/tesla-9 1.png",
+      "name": "SoftWare Engineer",
+      "company": "Tesla",
+      "category": ["Onsite", "Full Time"],
+      "email": "houseday@gleamink.com",
+      "phone": "+1 (848) 514-3434",
+      "address": "Chottrogram, Bangladesh",
+      "salary": "100k-150k"
+    },
+    {
+      "id": "64334e847652be1e4980fe04",
+      "picture": "https://www.vectorlogo.zone/logos/apple/apple-ar21.png",
+      "name": "Developer",
+      "company": "Apple",
+      "category": ["Remote", "Full Time"],
+      "email": "higginsherring@zenolux.com",
+      "phone": "+1 (890) 556-3482",
+      "address": "Rangpur, Bangladesh",
+      "salary": "100k-150k"
+      
+    },
+    {
+      "id": "64334e847603356cb2b63b97",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NASA_Worm_logo.svg/1280px-NASA_Worm_logo.svg.png",
+      "name": "Font-End Developer",
+      "company": "Nasa",
+      "category": ["Remote", "Full Time"],
+      "email": "kathleenboyd@luxuria.com",
+      "phone": "+1 (813) 537-2601",
+      "address": "Barisal, Bangladesh",
+      "salary": "100k-150k"
+    },
+    {
+      "id": "64334e847bfa02b2c0eb0945",
+      "picture": "https://logowik.com/content/uploads/images/openai-chatgpt-4038641.logowik.com.webp",
+      "name": "Marketing Manager",
+      "company": "OpenAI",
+      "category": ["Remote", "Full Time"],
+      "email": "jodiclark@conferia.com",
+      "phone": "+1 (850) 483-3475",
+      "address": "Kulna, Bangladesh",
+      "salary": "100k-150k"
+    }
+    
+   
+  ]

@@ -1,9 +1,11 @@
-import React from 'react';
-import JobApply from '../JobApply/JobApply';
-import JobCaregory from '../JobCategory/JobCategory';
+import React, { useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
 import JobCategory from '../JobCategory/JobCategory';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
+  const jobs = useLoaderData();
+  // const showAll = 
   return (
     <>
       <div className=' flex-row justify-between gap-5 items-center py-5 px-3 md:flex'>
@@ -21,7 +23,14 @@ const Home = () => {
 
         </div>
       </div>
-    <JobCategory></JobCategory>
+      <JobCategory></JobCategory>
+      <h1 className='text-center text-5xl font-semibold'>Featured Jobs</h1>
+      <p className='text-center text-base py-3 mt-2'>Explore thousands of job opportunities with all the information you need. I  ts your future</p>
+      <div className='grid md:grid-cols-2 mx-auto card gap-5 w-[95%]'>
+        {
+          jobs.map(job => <FeaturedJobs key={job.id} job={job}></FeaturedJobs>)
+        }
+      </div>
     </>
   );
 };

@@ -36,7 +36,7 @@ const NavBar = () => {
             </ul>
         </div>
         <div className="navbar-end">
-            <Link className="btn bg-gradient-to-r from-cyan-500 to-blue-500 ... border-none">Star Applying</Link>
+            <Link className="btn bg-gradient-to-r from-purple-500 to-purple-400 ...  border-none">Star Applying</Link>
         </div>
     </div>
     );

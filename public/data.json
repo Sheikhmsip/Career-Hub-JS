@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "picture": "./All Images/google-1-1 1.png",
+      "picture": "./AllImages/google-1-1 1.png",
       "name": "Technical Database Engineer",
       "company": "Google LLC",
       "category": ["Remote", "Full Time"],
@@ -16,7 +16,7 @@
     },
     {
       "id": "2",
-      "picture": "./All Images/netflix-4 1.png",
+      "picture": "./AllImages/netflix-4 1.png",
       "name": "Senior Product Design",
       "company": "Netlifix",
       "category": ["Onsite", "Full Time"],
@@ -31,7 +31,7 @@
     },
     {
       "id": "3",
-      "picture": "./All Images/tesla-9 1.png",
+      "picture": "./AllImages/tesla-9 1.png",
       "name": "SoftWare Engineer",
       "company": "Tesla",
       "category": ["Onsite", "Full Time"],

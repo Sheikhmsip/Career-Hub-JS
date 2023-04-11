@@ -22,7 +22,7 @@ const Home = () => {
           <button className="btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mt-3">Get Started</button>
         </div>
         <div>
-          <img className='' src="../../../public/All Images/man.png" alt="" />
+          <img className='' src="https://cdn.create.vista.com/api/media/small/224883870/stock-photo-handsome-smiling-businessman-holding-digital" alt="" />
 
         </div>
       </div>

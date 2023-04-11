@@ -32,7 +32,8 @@ const JobApply = () => {
       
 
     return (
-        <div >
+        <div className='py-5'>
+          <h1 className='text-center text-3xl text-purple-500 font-bold pb-20'>Applied Jobs</h1>
           <div className='w-[96%] mx-auto'>
           {
             applyJob.map(job => <Job key={job.id}

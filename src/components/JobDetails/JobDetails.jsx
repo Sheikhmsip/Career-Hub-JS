@@ -1,19 +1,22 @@
 import React from 'react';
+import toast from 'react-hot-toast';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { CurrencyDollarIcon, MapPinIcon, BriefcaseIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { addToDb } from '../../Utilities/fakeDb';
 
 const JobDetails = () => {
     const data = useLoaderData();
     let { id } = useParams();
     // console.log(jobs)
     const jobs = data.find(job => job.id === id)
-    console.log(jobs.id)
+    // console.log(jobs.id)
     const { descriptions, responsibility, name, salary, phone, email, address, requirements, experiences } = jobs;
 
-    // if(data) {
-    //         data.find(job => job.id === id)
-    //         console.log(jobs.id)
-    //     }
+   const applyJob = (id) => {
+     toast('Applied Confirm for this job ✅✅');
+    addToDb(id)
+
+   }
 
 
     return (
@@ -38,7 +41,7 @@ const JobDetails = () => {
                         <p className='flex gap-1 py-2'><EnvelopeIcon className="h-6 w-6 text-purple-400"/><span className='font-bold'>Email:</span> <span>{email}</span></p>
                         <p className='flex gap-1'><MapPinIcon className="h-6 w-6 text-purple-400"/> <span className='font-bold'>Address:</span> <span>{address}</span></p>
                     </div>
-                    <button className='w-full btn bg-gradient-to-r from-purple-500 to-purple-400 ... mt-5'>Apply Now</button>
+                    <button onClick={()=> applyJob(jobs.id)} className='w-full btn bg-gradient-to-r from-purple-500 to-purple-400 ... mt-5'>Apply Now</button>
 
 
                 </div>

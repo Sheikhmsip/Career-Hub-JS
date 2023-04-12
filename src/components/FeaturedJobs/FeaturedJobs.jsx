@@ -4,7 +4,7 @@ import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 
 const FeaturedJobs = ({ job }) => {
-    const {id, name, address, category, salary, picture, company,icons } = job
+    const {id, name, address, category, salary, picture, company, } = job
     // console.log(jobType.map(type => type))
     return (
         <div className='border p-4 relative h-[392px]'>

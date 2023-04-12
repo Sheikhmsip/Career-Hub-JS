@@ -9,10 +9,10 @@
       "phone": "+1 (940) 507-2236",
       "address": "Dhaka, Bangladesh",
       "salary": "100k-150k",
-      "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "descriptions": "A Technical Database Engineer is responsible for designing, implementing, and maintaining the database systems that support an organization's data management needs. This role involves working closely with developers, data analysts, and other stakeholders to understand their data requirements and design solutions that meet their needs. The Technical Database Engineer is responsible for database performance tuning, backup and recovery, and security. Overall, this role is critical in ensuring that an organization's data is accessible, secure, and meets the needs of the business.",
+      "responsibility": "The Technical Database Engineer is responsible for ensuring that the organizations database systems perform efficiently. This involves monitoring database performance identifying and resolving performance issues and implementing performance tuning strategies to improve database performance. Also responsible for ensuring that the organization's database systems are backed up and can be recovered in the event of a disaster. This involves implementing backup and recovery strategies testing those strategies and ensuring that they are effective",
       "requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field"
+      "experiences": "1-2 Years in this field"
     },
     {
       "id": "2",
@@ -23,11 +23,11 @@
       "email": "ellavalencia@velity.com",
       "phone": "+1 (928) 572-3117",
       "address": "Sylhet, Bangladesh",
-      "salary": "100k-150k",
-      "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field"
+      "salary": "50k-100k",
+      "descriptions": "The Senior Product Designer will work closely with cross-functional teams to ensure that our products are aligned with our company's vision and goals. They will collaborate with product managers, engineers, and other stakeholders to understand user needs and pain points, and develop solutions that address these challenges. They will also be responsible for creating and maintaining design systems, ensuring consistency across all of our products and platforms.",
+      "responsibility": " The responsibilities of a Senior Product Design professional at Netlifix include leading and managing the design team, developing design strategies that align with the company's overall product strategy, creating user-centered designs that are innovative, engaging, and intuitive, maintaining design systems to ensure consistency across all products and platforms, and collaborating with cross-functional teams to understand user needs and pain points and developing solutions that address these challenges. This role is critical in shaping the company's product offerings, ensuring that they are user-centered, innovative, and aligned with the company's vision and goals.",
+      "requirements": "Bachelor's degree in Computer Science, Engineering, Business, or a related field.",
+      "experiences": "2 years of experience in product management, with a focus on digital products and services"
     },
     {
       "id": "3",
@@ -39,15 +39,15 @@
       "phone": "+1 (848) 514-3434",
       "address": "Chottrogram, Bangladesh",
       "salary": "100k-150k",
-      "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirements": "Bachelor degree to complete any reputational university.",
+      "descriptions": "As a Software Engineer at Tesla, you will be responsible for designing, developing, and maintaining software solutions that power our cutting-edge electric vehicles and energy products. You will work collaboratively with other engineers, designers, and stakeholders to create high-quality software that meets the needs of the business and our customers.",
+      "responsibility": " Develop software solutions that meet the needs of the business and our customers. Collaborate with other engineers, designers, and stakeholders to design and implement software features. Write clean, maintainable code that is well-documented and tested. Participate in code reviews and provide feedback to other engineers. Troubleshoot and debug software issues in a timely and efficient manner. Stay up-to-date with the latest industry trends and best practices in software development",
+      "requirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
       "experiences": "2-3 Years in this field"
     },
     {
       "id": "4",
       "picture": "https://www.vectorlogo.zone/logos/apple/apple-ar21.png",
-      "name": "Developer",
+      "name": "UI/UX Designer",
       "company": "Apple",
       "category": ["Remote", "Full Time"],
       "email": "higginsherring@zenolux.com",
@@ -56,8 +56,8 @@
       "salary": "100k-150k",
       "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field"
+      "requirements": "Bachelor degree to complete any reputation university.",
+      "experiences": "Experience developing front-end. 1-2 years "
       
     },
     {
@@ -70,10 +70,10 @@
       "phone": "+1 (813) 537-2601",
       "address": "Barisal, Bangladesh",
       "salary": "100k-150k",
-      "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field"
+      "descriptions": "As a Front-end Developer at NASA, you will be responsible for developing and maintaining user-facing applications that support the agency's missions and goals. You will work closely with other developers, designers, and stakeholders to create intuitive, responsive, and accessible user interfaces that enable users to interact with NASA's data and resources.",
+      "responsibility": " Develop user-facing applications that meet the needs of NASA's missions and goals. Work closely with other developers, designers, and stakeholders to create intuitive, responsive, and accessible user interface Write clean, well-documented code that follows best practices for front-end development. Participate in code reviews and provide feedback to other developers",
+      "requirements": "Proficiency in front-end technologies such as HTML, CSS, JavaScript, and React.",
+      "experiences": "Experience developing front-end applications in a professional setting"
     },
     {
       "id": "6",
@@ -85,10 +85,10 @@
       "phone": "+1 (850) 483-3475",
       "address": "Kulna, Bangladesh",
       "salary": "100k-150k",
-      "descriptions": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field"
+      "descriptions": "As a Marketing Manager at Open AI, you will be responsible for developing and executing marketing strategies to promote our products, services, and brand to a global audience. You will work closely with other teams to understand the needs of our customers and develop marketing campaigns that resonate with our target audience.",
+      "responsibility": " Create compelling marketing content, such as blog posts, whitepapers, case studies, and social media posts. Manage and optimize digital marketing channels, such as email marketing, social media, and search engine optimization (SEO). Analyze and report on the effectiveness of marketing campaigns and use data to inform future strategies. Manage relationships with external vendors, such as creative agencies and event planners. Stay up-to-date with the latest industry trends and best practices in marketing and artificial intelligence (AI)",
+      "requirements": "Bachelor's degree in Marketing, Communications.",
+      "experiences": "5+ years of experience in marketing, with a focus on B2B technology marketing"
     }
     
    

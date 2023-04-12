@@ -1,4 +1,4 @@
-// use local storage to manage cart data
+// use local storage to manage job data
 const addToDb = id => {
     let jobsCart = getJobsCart();
     // add quantity

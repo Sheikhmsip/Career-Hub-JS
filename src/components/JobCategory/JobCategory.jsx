@@ -8,7 +8,7 @@ const JobCategory = () => {
             <p className='text-center text-base py-3 mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
             {/* Job Category section */}
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 items-center gap-3 w-[80%] mx-auto mt-6'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 items-center gap-3 md:w-[80%] md:mx-auto mx-2 mt-6'>
                 <div className=' bg-slate-100 border-gray-100 border-2 pl-3 py-4 h-[211px]'>
                     <NewspaperIcon className='h-20 w-20 py-4 pl-2 text-purple-400'></NewspaperIcon>
                     <p className='text-2xl font-bold'>Account & Finance</p>

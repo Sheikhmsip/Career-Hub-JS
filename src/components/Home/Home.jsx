@@ -27,9 +27,9 @@ const Home = () => {
         </div>
       </div>
       <JobCategory></JobCategory>
-      <h1 className='text-center text-5xl font-semibold'>Featured Jobs</h1>
+      <h1 className='text-center text-5xl font-semibold' >Featured Jobs</h1>
       <p className='text-center text-base py-3 mt-2'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-      <div className='grid md:grid-cols-2 mx-auto card gap-5 w-[95%]'>
+      <div className='grid md:grid-cols-2 md:mx-auto  card gap-5 md:w-[95%] '>
       {jobs?.slice(0, showAll ? 6 : 4).map((job) => (
           <FeaturedJobs
             job={job}

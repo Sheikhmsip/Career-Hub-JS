@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 const Job = ({ job }) => {
-    const { id, name, picture, company, category, jobType, address, salary } = job
+    const { id, name, picture, company, category, address, salary } = job
     return (
 
         <div className='grid  md:grid-cols-4 items-center justify-between md:h-[250px] mx-auto bg-slate-100 border-2 border-purple-300 rounded-md my-2 gap-5'>
 
 
-            <div className='bg-[#ebdfdf] rounded-md mt-2 md:mt-0 py-12 mx-auto px-5 ml-4 w-full '>
-                <img className='md:w-[148px] w-[100%] h-[40] mx-auto ' src={picture} alt="" />
+            <div className='md:bg-[#ebdfdf] rounded-md mt-2 md:mt-0 py-12 mx-auto px-5 ml-4 w-full '>
+                <img className='md:w-[148px] w-[90%] h-[40] mx-auto ' src={picture} alt="" />
             </div>
             <div className='md:col-span-2 py-5 px-5'>
                 <p className='font-bold text-2xl'>{name}</p>

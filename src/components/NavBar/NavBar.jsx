@@ -19,10 +19,13 @@ const NavBar = () => {
                         </ActiveLink>
                         
                     </li>
+                    <li>
+                    <ActiveLink to='/blogs'>Blogs</ActiveLink>
+                    </li>
                     
                 </ul>
             </div>
-            <button className="btn btn-ghost normal-case text-xl">JOB HUNTER</button>
+            <button className="btn btn-ghost normal-case text-2xl font-bold">JOB HUNTER</button>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-2">

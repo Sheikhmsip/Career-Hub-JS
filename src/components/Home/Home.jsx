@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <div className=' flex-row justify-between gap-5 items-center py-5 px-3 md:flex'>
-        <div className='w-[] md:pl-6'>
+        <div className='md:pl-6'>
           <div className='md:text-7xl text-6xl leading-tight font-semibold '>
             <p>One Step </p>
             <p>Closer To Your </p>

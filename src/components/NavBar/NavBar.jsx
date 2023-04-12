@@ -25,7 +25,9 @@ const NavBar = () => {
                     
                 </ul>
             </div>
-            <button className="btn btn-ghost normal-case text-2xl font-bold">JOB HUNTER</button>
+           <div className='flex items-center justify-center gap-1'>
+           <p class="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl font-black ">JOB HUNTER</p> <img src="https://cdn-icons-png.flaticon.com/512/53/53041.png?w=360" alt="" className=' w-14 h-12 md:block hidden' />
+           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-2">

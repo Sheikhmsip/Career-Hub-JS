@@ -7,12 +7,25 @@ const JobApply = () => {
   const [jobs, setJobs] = useState([]);
 
   const [applyJob, setApplyJob] = useState([]);
+  const [filterJob, setFilterJob] = useState([]);
 
   useEffect(() => {
     fetch('/data.json')
       .then(res => res.json())
       .then(data => setJobs(data))
   }, []);
+
+const remote = ()=>{
+
+  const filter = filterJob.filter(f => f.category[0] === "Remote");
+  setApplyJob(filter);
+}
+const onsite = ()=>{
+
+  const filter = filterJob.filter(f => f.category[0] === "Onsite");
+  setApplyJob(filter);
+}
+
 
   useEffect(() => {
     const storedApplyJob = getJobsCart();
@@ -27,6 +40,7 @@ const JobApply = () => {
       }
     }
     setApplyJob(saveJob);
+    setFilterJob(saveJob);
   }, [jobs]);
 
 
@@ -39,8 +53,8 @@ const JobApply = () => {
       <div className='w-[96%] mx-auto'>
         <div className=' relative'>
           <div className=' absolute right-2 -top-16'>
-            <button className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mr-2'>Full Time</button>
-            <button className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none '>Remote</button>
+            <button onClick={()=> onsite(applyJob)} className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none mr-2'>Onsite</button>
+            <button onClick={()=> remote(applyJob)} className='btn bg-gradient-to-r from-purple-500 to-purple-400 ... border-none '>Remote</button>
           </div>
 
         </div>
